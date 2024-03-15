@@ -1,20 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+}
+
 header {
     background-image: linear-gradient(to right,#000000,#797979);
 
+
+}
+
+header img {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 body{
 
     background-image: radial-gradient(#85C829,#000000);
+    background-repeat: no-repeat;
 }
 footer {
     background-image: linear-gradient(to right,#000000,#797979);
     
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Gruppo" , sans-serif;
     color: rgb(253, 253, 252);
 }
 footer img {
-    margin: 
+    
+}
+main{
+    display: flex;
+    min-height: calc(100vh - );
 }
