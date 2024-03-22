@@ -10,8 +10,11 @@
 
 header {
     background-image: linear-gradient(to right,#000000,#797979);
-
-
+    display: flex;
+    justify-content: flex-start;
+    border-bottom-width: 0.5rem;
+    border-bottom-style: solid;
+    height: 5rem;
 }
 
 header img {
@@ -26,7 +29,7 @@ body{
 }
 footer {
     background-image: linear-gradient(to right,#000000,#797979);
-    
+    height: 3.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,9 +37,11 @@ footer {
     color: rgb(253, 253, 252);
 }
 footer img {
-    
+    position: fixed;
+
 }
 main{
     display: flex;
-    min-height: calc(100vh - );
+    
+    
 }
