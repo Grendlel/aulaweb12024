@@ -1,4 +1,8 @@
 @media(max-width: 800px){
-    
+    main.botoes {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10rem;
+    }
 
 }
