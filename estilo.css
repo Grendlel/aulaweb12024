@@ -20,27 +20,31 @@ header {
 header figure {
     align-items: self-start;
     display:flex;
-    position: fixed;
 }
 
 header aside figure{
     align-items: self-end;
     display:flex;
-    position: fixed;
 }
 
 main{
     background-image: url(./img/image\ 5.png);
     background-repeat: no-repeat;
+    display: flex;
+    background-image: radial-gradient(#85C829,#000000);
+    background-repeat: no-repeat;
 }
 
 main section img{
-    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
     border: 0.5rem outset rgb(72, 78, 72);
     border-radius: 0.5rem;
-
+    width: 50rem;
+    height: 15rem;
 }
-main.menu{
+main.opcoes{
     display: grid;
     grid-template-columns: auto;
     gap: 0.5rem;
@@ -48,32 +52,27 @@ main.menu{
     padding: 0.5rem;
     }
 
-main.menu section {
-    background-color: var(--secondary);
+main.opcoes section {
+    background-color: #85C829;
     padding: 0.5rem;
     border-radius: 10rem;
 
 }
 
-main.menu section aside {
+main.opcoes section aside {
     display: flex;
 }
 
-main.menu section aside p {
+main.opcoes section aside p {
     font-size: 0.8rem;
     margin-left: 0.5rem;
 }
 
-body{
-
-    background-image: radial-gradient(#85C829,#000000);
-    background-repeat: no-repeat;
-}
 footer {
     background-image: linear-gradient(to right,#000000,#797979);
     height: 3.5rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-family: "Gruppo" , sans-serif;
     color: rgb(253, 253, 252);
@@ -81,10 +80,5 @@ footer {
 }
 
 footer article{
-    justify-content: space-between;
-}
-main{
-    display: flex;
-    
-    
+    justify-content: space-evenly;
 }
